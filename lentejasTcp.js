@@ -34,10 +34,7 @@ net.createServer(function(sock)
     save_data(data).then((message)=>
     {
       console.log(message)
-    }).then((data)=>
-    {
-      socket.end();
-    });  
+    })
   });
 
     //EVENTO PARA CERRAR CONEXION CON SOCKET
