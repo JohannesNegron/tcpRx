@@ -36,15 +36,15 @@ var serverTcp=net.createServer(function(sock)
         data=JSON.parse(data);
         console.log(data['sensors']['agua_temp']);
         console.log("Tipo de dato: "+typeof(data));
-        var currentTime=timeStamp();
+        var currentTime=data['timestamp'];
         /*var currentTime2="20"+(data['timestamp']);
 	currentTime2=new Date(currentTime2);
 	console.log("currentTime: "+currentTime );
 	console.log("currentTime2: "+currentTime2 );*/
 	//data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
 
-      client.query("INSERT INTO sensors (ph, temp, light, date, device) VALUES ("+data['sensors']['ph']
-      +", "+data['sensors']['agua_temp']+", "+data['sensors']['lux']+", TIMESTAMP '"+currentTime+"', "+data["device"]+")", function(err, result)
+      client.query("INSERT INTO sensors (ph, temp, temp_agua, light, date, device) VALUES ("+data['sensors']['ph']
+      +", "+data['sensors']['temp']+", "+data['sensors']['agua_temp']+", "+data['sensors']['lux']+", TIMESTAMP '"+currentTime+"', "+data["device"]+")", function(err, result)
       {
         if(err) {
           return console.error('error running query', err);
