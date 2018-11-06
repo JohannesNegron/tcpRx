@@ -51,7 +51,7 @@ net.createServer(function(sock)
 
 function save_data(data)
 {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve, reject) =>function(data) {
     client_database.query("INSERT INTO sensors (ph, temp, light, date, device) VALUES ("+
     data['ph']+", "+
     data['agua_temp']+", "+
