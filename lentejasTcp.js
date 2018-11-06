@@ -31,24 +31,6 @@ net.createServer(function(sock)
     data=JSON.parse(data);
     //console.log(data['sensors']['agua_temp']);
     console.log("Tipo de dato: "+typeof(data));
-    save_data(data).then((message)=>
-    {
-      console.log(message)
-    })
-  });
-
-    //EVENTO PARA CERRAR CONEXION CON SOCKET
-    sock.on('close', function(data) 
-    {
-      console.log('CLOSED: ' + sock.remoteAddress +' '+ sock.remotePort);
-    });
-}).listen(PORT_SERVER, function(){
-  console.log('Server listening on ' + PORT_SERVER);
-});
-
-function save_data(data)
-{
-  return new Promise((resolve, reject) =>function(data) {
     client_database.query("INSERT INTO sensors (ph, temp, light, date, device) VALUES ("+
     data['ph']+", "+
     data['agua_temp']+", "+
@@ -59,12 +41,20 @@ function save_data(data)
     {
       if(err) 
       {
-        resolve('error running query');
+        console.log('error running query');
       }
-      resolve('Save data');
+      console.log('Save data');
     });
-  })
-}
+  });
+
+    //EVENTO PARA CERRAR CONEXION CON SOCKET
+    sock.on('close', function(data) 
+    {
+      console.log('CLOSED: ' + sock.remoteAddress +' '+ sock.remotePort);
+    });
+}).listen(PORT_SERVER, function(){
+  console.log('Server listening on ' + PORT_SERVER);
+});
 
 /*
 //console.log('Server listening on ' + PORT_SERVER);
