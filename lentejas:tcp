@@ -1,0 +1,897 @@
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ETIMEDOUT
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ETIMEDOUT
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+/home/juan/lentejas/tcpClient/lentejasTcp.js:44
+	data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
+	                                                                             ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:70:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ETIMEDOUT
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+SyntaxError: Unexpected token  in JSON at position 0
+    at Object.parse (native)
+    at Socket.<anonymous> (/home/juan/lentejas/tcpClient/lentejasTcp.js:36:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
