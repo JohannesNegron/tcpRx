@@ -43,7 +43,7 @@ var serverTcp=net.createServer(function(sock)
 	console.log("currentTime2: "+currentTime2 );*/
 	//data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
 
-      client.query("INSERT INTO sensors (ph, temp, temp_agua, light, date, device) VALUES ("+data['sensors']['ph']
+      client.query("INSERT INTO sensors (ph, temp, light, date, device) VALUES ("+data['sensors']['ph']
       +", "+data['sensors']['agua_temp']+", "+data['sensors']['lux']+", TIMESTAMP '"+currentTime+"', "+data["device"]+")", function(err, result)
       {
         if(err) {
