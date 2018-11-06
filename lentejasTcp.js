@@ -1,65 +1,76 @@
+const PORT_SERVER   =  6969;
+const INIT_DATABASE = "postgres://postgres:NorjEpWy@localhost:5432/lentejasbd";
 
-var net=require('net');
-var pg = require('pg');
-var HOST_SERVER='127.0.0.1';
-var PORT_SERVER=6969;
+var net = require('net');
+var pg  = require('pg');
 
-var conString = "postgres://postgres:NorjEpWy@localhost:5432/lentejasbd";
+//var objSensors={"device":1,"sensors":{"agua_temp":20.56,"ph":35.31,"lux":1240},"timestamp":"17/07/25,11:05:28-20"};
 
-//var clientTCP=new net.Socket();
-var host_client='127.0.0.1';
-var port_client=9000;
+//CONEXION A LA BASE DE DATOS
+var client_database = new pg.Client(INIT_DATABASE);
 
-var objSensors={"device":1,"sensors":{"agua_temp":20.56,"ph":35.31,"lux":1240},"timestamp":"17/07/25,11:05:28-20"};
-
-//Conexión con la bd
-var client = new pg.Client(conString);
-client.connect(function(err) {
-  if(err) {
+client_database.connect(function(err) {
+  if(err) 
+  {
     return console.error('could not connect to postgres', err);
   }
-	else
-	console.log('connection succed!');
+  else
+  {
+    console.log('connection succed!');
+  }
+});
+
+net.createServer(function(sock)
+{
+  //MUESTRA LOS DATOS DE LA NUEVA CONEXCION
+  console.log('CONNECTED: ' + sock.remoteAddress +':'+ sock.remotePort);
+  sock.on('data', function(data) {
+    //data = objSensors 
+    console.log('DATA ' + sock.remoteAddress + ': ' + data);
+    sock.write('You said "' + data + '"');
+    data=JSON.parse(data);
+    console.log(data['sensors']['agua_temp']);
+    console.log("Tipo de dato: "+typeof(data));
+    save_data(data).then((message)=>
+    {
+      console.log(message)
+    }).then((data)=>
+    {
+      socket.end();
+    });  
   });
 
-var serverTcp=net.createServer(function(sock)
-{
-
-  // We have a connection - a socket object is assigned to the connection automatically
-    console.log('CONNECTED: ' + sock.remoteAddress +':'+ sock.remotePort);
-
-    // Add a 'data' event handler to this instance of socket
-    sock.on('data', function(data) {
-        //data = objSensors 
-        console.log('DATA ' + sock.remoteAddress + ': ' + data);
-        sock.write('You said "' + data + '"');
-        data=JSON.parse(data);
-        console.log(data['sensors']['agua_temp']);
-        console.log("Tipo de dato: "+typeof(data));
-        var currentTime=timeStamp();
-        /*var currentTime2="20"+(data['timestamp']);
-	currentTime2=new Date(currentTime2);
-	console.log("currentTime: "+currentTime );
-	console.log("currentTime2: "+currentTime2 );*/
-	//data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
-
-      client.query("INSERT INTO sensors (ph, temp, light, date, device) VALUES ("+data['sensors']['ph']
-      +", "+data['sensors']['agua_temp']+", "+data['sensors']['lux']+", TIMESTAMP '"+currentTime+"', "+data["device"]+")", function(err, result)
-      {
-        if(err) {
-          return console.error('error running query', err);
-        }
-      });
-
-      });
-
-      // Add a 'close' event handler to this instance of socket
-    sock.on('close', function(data) {
-        console.log('CLOSED: ' + sock.remoteAddress +' '+ sock.remotePort);
+    //EVENTO PARA CERRAR CONEXION CON SOCKET
+    sock.on('close', function(data) 
+    {
+      console.log('CLOSED: ' + sock.remoteAddress +' '+ sock.remotePort);
     });
+}).listen(PORT_SERVER, function(){
+  console.log('Server listening on ' + PORT_SERVER);
 });
-serverTcp.listen(PORT_SERVER);
-console.log('Server listening on ' + HOST_SERVER +':'+ PORT_SERVER);
+
+function save_data(data_json)
+{
+  return new Promise((resolve, reject) => {
+    client_database.query("INSERT INTO sensors (ph, temp, light, date, device) VALUES ("+
+    data['ph']+", "+
+    data['agua_temp']+", "+
+    data['lux']+", "+
+    data['timestamp']+", "+
+    data["device"]+")", 
+    function(err, result)
+    {
+      if(err) 
+      {
+        resolve('error running query');
+      }
+      resolve('Save data');
+    });
+  })
+}
+
+/*
+//console.log('Server listening on ' + PORT_SERVER);
 
 
 function timeStamp() {
@@ -92,3 +103,4 @@ function timeStamp() {
 // Return the formatted string
   return date.join("-") + " " + time.join(":");// + " " + suffix;
 }
+*/
