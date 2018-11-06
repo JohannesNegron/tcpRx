@@ -44,7 +44,7 @@ var serverTcp=net.createServer(function(sock)
 	//data['sensors']['ph'] = data['sensors']['ph']  <= 0 ? 6.00 : data['sensors]['ph'];
 
       client.query("INSERT INTO sensors (ph, temp, temp_agua, light, date, device) VALUES ("+data['sensors']['ph']
-      +", "+data['sensors']['temp']+", "+data['sensors']['agua_temp']+", "+data['sensors']['lux']+", TIMESTAMP '"+currentTime+"', "+data["device"]+")", function(err, result)
+      +", "+data['sensors']['agua_temp']+", "+data['sensors']['lux']+", TIMESTAMP '"+currentTime+"', "+data["device"]+")", function(err, result)
       {
         if(err) {
           return console.error('error running query', err);
