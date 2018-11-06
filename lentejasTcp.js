@@ -34,7 +34,7 @@ net.createServer(function(sock)
     client_database.query("INSERT INTO sensors (ph, temp, light, date, device) VALUES ("+
     data['ph']+", "+
     data['agua_temp']+", "+
-    data['lux']+", "+
+    data['lux']+", TIMESTAMP"+
     data['timestamp']+", "+
     data["device"]+")", 
     function(err, result)
