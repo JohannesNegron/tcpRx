@@ -49,7 +49,7 @@ net.createServer(function(sock)
   console.log('Server listening on ' + PORT_SERVER);
 });
 
-function save_data(data_json)
+function save_data(data)
 {
   return new Promise((resolve, reject) => {
     client_database.query("INSERT INTO sensors (ph, temp, light, date, device) VALUES ("+
