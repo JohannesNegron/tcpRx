@@ -29,7 +29,7 @@ net.createServer(function(sock)
     console.log('DATA ' + sock.remoteAddress + ': ' + data);
     sock.write('You said "' + data + '"');
     data=JSON.parse(data);
-    console.log(data['sensors']['agua_temp']);
+    //console.log(data['sensors']['agua_temp']);
     console.log("Tipo de dato: "+typeof(data));
     save_data(data).then((message)=>
     {
