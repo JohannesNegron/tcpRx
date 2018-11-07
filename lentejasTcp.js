@@ -26,7 +26,7 @@ net.createServer(function(socket)
 	{
         console.log('DATA ' + socket.remoteAddress + ': ' + data);
 		//socket.write('You said "' + data + '"');
-		socket.write(1);
+		socket.write("1");
 		data=JSON.parse(data);
 		var sentence_query = "INSERT INTO sensors (ph, temp, light, date, device) VALUES ("+
 		data['sensors']['ph']+", "+
