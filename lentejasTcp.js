@@ -26,15 +26,10 @@ net.createServer(function(socket)
 	console.log('CONNECTED: ' + socket.remoteAddress + ':' + socket.remotePort);
 	socket.on('data', function(data) 
 	{
-<<<<<<< HEAD
-	        console.log('DATA ' + socket.remoteAddress + ': ' + data);
-=======
-		console.log(save_data(data));
+		console.log(save_data(JSON.parse(data)));
 		/*
         console.log('DATA ' + socket.remoteAddress + ': ' + data);
->>>>>>> b64f126093e23bff345c2092e7e22ab477f9823f
 		//socket.write('You said "' + data + '"');
-		console.log("enviando 1");
 		socket.write("1");
 		data=JSON.parse(data);
 		var sentence_query = "INSERT INTO sensors (ph, temp, light, date, device) VALUES ("+
@@ -62,8 +57,6 @@ net.createServer(function(socket)
 {
 	console.log('Server listening on port' + PORT_SERVER);
 });
-<<<<<<< HEAD
-=======
 function save_data(data)
 {
 	pg.connect("postgres://postgres:NorjEpWy@localhost:5432/lentejasbd", (err, client, done)=>
@@ -91,4 +84,3 @@ function save_data(data)
 		});
 	});
 };
->>>>>>> b64f126093e23bff345c2092e7e22ab477f9823f
