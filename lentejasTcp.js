@@ -10,17 +10,25 @@ net.createServer(function(socket)
 	console.log('CONNECTED: ' + socket.remoteAddress + ':' + socket.remotePort);
 	socket.on('data', function(data) 
 	{
-		save_data(JSON.parse(data))
-		.then((value)=>
+		var date_time = new Date(data['timestamp']);
+		if(date_time.isValid())
 		{
-			if(value)
+			save_data(JSON.parse(data))
+			.then((value)=>
 			{
-				socket.write("1");
-			}
-		});
+				if(value)
+				{
+					socket.write("1");
+				}
+			});
+		}
+		else
+		{
+			console.log("Fecha invalida");
+			socket.write("2");
+		}
 	});
 
-    // Add a 'close' event handler to this instance of socketet
 	socket.on('close', function(data) 
 	{
         console.log('CLOSED: ' + socket.remoteAddress +' '+ socket.remotePort);
@@ -29,6 +37,10 @@ net.createServer(function(socket)
 {
 	console.log('Server listening on port' + PORT_SERVER);
 });
+Date.prototype.isValid = function () 
+{
+    return this.getTime() === this.getTime();
+};  
 function save_data(data)
 {
 	console.log(data);
