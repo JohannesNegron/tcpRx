@@ -10,7 +10,7 @@ net.createServer(function(socket)
 	console.log('CONNECTED: ' + socket.remoteAddress + ':' + socket.remotePort);
 	socket.on('data', function(data) 
 	{
-		var date_time = new Date(data['timestamp']);
+		var date_time = new Date(JSON.parse(data)['timestamp']);
 		if(date_time.isValid())
 		{
 			save_data(JSON.parse(data))
